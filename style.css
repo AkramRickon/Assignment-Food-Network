@@ -75,7 +75,7 @@ ul li a:hover
 .section-display
 {
     display:flex;
-    margin-bottom:120px;
+    margin-bottom:100px;
 }
 #about-me-padding
 {
@@ -129,7 +129,7 @@ ul li a:hover
     display:flex;
     margin-left:80PX;
     margin-right:80px;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
  
 .social-media
@@ -159,7 +159,7 @@ ul li a:hover
     height:180px;
     margin-left:80px;
     margin-right:80px;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
     border-radius:20px;
     background-color: white;
     box-shadow: 10px 10px 20px 8px rgb(187, 182, 182);
