@@ -1,12 +1,12 @@
 body
 {
     margin:0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 h1
 {
     font-size:40px;
-    color:rgb(92, 88, 88);
+    color:rgb(88, 84, 84);
 }
 h2
 {
@@ -31,7 +31,7 @@ ul
 ul li
 {
     display:inline-block;
-    padding:10px;    
+    padding:15px 20px;    
 }
 ul li a
 {
@@ -60,6 +60,7 @@ ul li a:hover
 #order-p 
 {
     color:rgb(119, 116, 116);
+    font-size:18px;
 }
 .half-width 
 {
@@ -84,23 +85,25 @@ ul li a:hover
 {
     background-image: url("images/shapes/7.png");
     background-repeat: no-repeat;
+    background-position:top center;
     
 }
 .link-button 
 {
     text-decoration: none;
-    background:linear-gradient(to right,rgb(250, 150, 139),rgb(252, 84, 55));
+    background:linear-gradient(to right,rgb(255, 119, 104),rgb(247, 63, 30));
     color:white;
-    padding:10px 35px;
-    border-radius:20px;
+    padding:15px 35px;
+    border-radius:35px;
     margin-top:10px;
+    font-size: 20px;
 }
 
 #my-recipie
 {
     width:600px;
     margin:auto;
-    margin-bottom:30px;
+    margin-bottom:50px;
 }
 
 .card
@@ -109,8 +112,7 @@ ul li a:hover
     background-color:white;
     padding:15px;
     border-radius:20px;
-    box-shadow:10px 10px 30px rgb(175, 171, 171);
-    
+    box-shadow:10px 10px 20px 5px rgb(175, 171, 171);
 }
 .card img 
 {
@@ -119,22 +121,22 @@ ul li a:hover
 }
 #card-margin
 {
-    margin-left:80px;
-    margin-right:80px;
+    margin-left:100px;
+    margin-right:100px;
 }
-.display-card
+#display-card
 {
     display:flex;
     margin-left:80PX;
     margin-right:80px;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
  
 .social-media
 {
     font-size:35px;
     font-weight: bold;
-    margin-bottom:0px;
+    margin-bottom:5px;
 }
 .social-media-width
 {
@@ -154,17 +156,18 @@ ul li a:hover
 #display-social-media
 {
     display:flex;
-    height:150px;
+    height:180px;
     margin-left:80px;
     margin-right:80px;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
     border-radius:20px;
     background-color: white;
-    box-shadow: 8px 8px 20px rgb(187, 182, 182);
+    box-shadow: 10px 10px 20px 8px rgb(187, 182, 182);
+    
 }
 .color-tomato
 {
-    color:tomato;
+    color:rgb(248, 84, 55);
 }
 .color-grey
 {
