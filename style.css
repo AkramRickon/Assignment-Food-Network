@@ -72,10 +72,15 @@ ul li a:hover
 {
     width:100%;
 }
-.section-display
+#order-now-display
 {
     display:flex;
     margin-bottom:100px;
+}
+.about-me-display
+{
+    display:flex;
+    margin-bottom:80px;
 }
 #about-me-padding
 {
@@ -103,7 +108,7 @@ ul li a:hover
 {
     width:600px;
     margin:auto;
-    margin-bottom:50px;
+    margin-bottom:40px;
 }
 
 .card
